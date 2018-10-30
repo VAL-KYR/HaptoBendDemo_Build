@@ -1,0 +1,59 @@
+
+Angles Over Time
+Frames	Rotate	ChildRotate	RotateInverse	ChildRotateInverse	Docking x	Docking y	Docking z	
+0	0.2344362	0.7032931	0	0.2344358	0	0	0	
+1	-0.234436	0.9377214	0	-2.13443E-07	0	0	0	
+2	0.2344362	-0.7033081	0	1.641029	0	0	0	
+3	-1.17215	0.2344287	0	-0.4688721	0	0	0	
+4	-3.685133E-08	3.061914E-07	0	-0.234436	0	0	0	
+5	0.234436	0.2344287	0	0.4688641	0	0	0	
+6	-0.9377441	2.934841E-07	0	-0.234436	0	0	0	
+7	-0.7033081	-2.109894	0	3.750915	0	0	0	
+8	-3.516479	-0.234436	0	-0.4688721	0	0	0	
+9	-0.4688721	-0.234436	0	-0.234436	0	0	0	
+10	-0.7033081	-0.4688721	0	-2.401233E-07	0	0	0	
+11	-0.4688721	8.130681E-08	0	-0.234436	0	0	0	
+12	-0.7032776	-2.34433	0	0.2344358	0	0	0	
+13	-3.282043	-0.4688721	0	1.172165	0	0	0	
+14	-0.4688721	0.2344283	0	0.2344358	0	0	0	
+15	1.067208E-07	0.9377212	0	-0.234436	0	0	0	
+16	1.067208E-07	0.9377212	0	0.2344358	0	0	0	
+17	1.067208E-07	0.9377212	0	-2.401233E-07	0	0	0	
+18	0.2344361	-0.9377441	0	1.641029	0	0	0	
+19	-2.109894	0.2344282	0	-0.234436	0	0	0	
+20	0.2344361	0.7032926	0	-0.234436	0	0	0	
+
+
+Angle MV instances
+Rotate	2.813171	3.047607	2.578766	2.813171	
+ChildRotate	2.109894	2.34433	
+RotateInverse	
+ChildRotateInverse	3.985351	4.219787	
+Docking x	
+Docking y	
+Docking z	
+Total MV Amount	23.91208
+
+
+Angle TRE instances
+Rotate	1	
+ChildRotate	1	
+RotateInverse	1	
+ChildRotateInverse	1	
+Docking x	1	
+Docking y	1	
+Docking z	1	
+Total TRE Count	0
+
+
+Correct Angles	Rotate	ChildRotate	RotateInverse	ChildRotateInverse	Docking x	Docking y	Docking z
+	-7.099981E-05	-1.602678E-11	0	4.988869E-14	0	0	0
+
+Angle Error	Rotate	ChildRotate	RotateInverse	ChildRotateInverse	Docking x	Docking y	Docking z
+	7.102649E-05	0.2344282	0	0.2344357	0	0	0
+
+Time Taken	Hours	Minutes	Seconds	Milliseconds	Seconds float	Completion time
+	0	0	1	248	1.248249	00h:00m:01s:248ms
+
+Final Results	Tester Name	Time of Test	Dock Shape Style	Virtual Device Visible	Time Taken	Shape Precision %	Orientation Precision %	Overall Precision %	Efficiency %	Difficulty	Total MV	Total TRE	
+	0	2018-10-30_15:31:44	ZEROING DATA	True	00h:00m:01s:248ms	99.93487	100	99.96278	100	7.88887E-08	23.91208	0	

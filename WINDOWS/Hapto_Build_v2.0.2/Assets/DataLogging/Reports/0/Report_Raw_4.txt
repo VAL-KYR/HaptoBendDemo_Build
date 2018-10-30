@@ -1,0 +1,61 @@
+
+Angles Over Time
+Frames	Rotate	ChildRotate	RotateInverse	ChildRotateInverse	Docking x	Docking y	Docking z	
+0	0.468865	1.600812E-07	0	0.4688644	0	0	0	
+1	-0.234436	-0.234436	0	0.2344283	0	0	0	
+2	-0.234436	-0.7033081	0	1.406593	0	0	0	
+3	0.2344365	0.2344286	0	-1.067137E-07	0	0	0	
+4	1.172166	0.9377214	0	0.2344283	0	0	0	
+5	0.9377294	0.9377214	0	-1.067215E-07	0	0	0	
+6	1.172166	0.9377214	0	0.7032927	0	0	0	
+7	0.7033011	-0.9377136	0	1.406593	0	0	0	
+8	-0.7032776	0.9377214	0	0.2344282	0	0	0	
+9	1.172166	1.575443E-07	0	-1.600822E-07	0	0	0	
+10	0.2344366	1.575443E-07	0	0.2344282	0	0	0	
+11	0.2344366	1.575443E-07	0	-1.600822E-07	0	0	0	
+12	0.2344366	-2.109894	0	3.047615	0	0	0	
+13	-1.641022	0.2344286	0	0.2344282	0	0	0	
+14	0.2344367	0.2344286	0	0.2344282	0	0	0	
+15	0.4688651	1.867626E-07	0	0.7032926	0	0	0	
+16	6.936853E-07	-0.234436	0	0.2344282	0	0	0	
+17	0.4688651	-2.34433	0	0.2344282	0	0	0	
+18	-2.109894	-0.234436	0	-1.473749E-07	0	0	0	
+19	0.2344369	8.004111E-08	0	0.4688643	0	0	0	
+20	8.804523E-07	8.004111E-08	0	0.2344282	0	0	0	
+21	0.2344369	8.004111E-08	0	0.4688643	0	0	0	
+22	-0.234436	-2.34433	0	0.2344282	0	0	0	
+
+
+Angle MV instances
+Rotate	
+ChildRotate	2.109894	2.109894	2.109894	2.34433	
+RotateInverse	
+ChildRotateInverse	3.047615	2.813187	
+Docking x	
+Docking y	
+Docking z	
+Total MV Amount	14.53481
+
+
+Angle TRE instances
+Rotate	1	
+ChildRotate	1	
+RotateInverse	1	
+ChildRotateInverse	1	
+Docking x	1	
+Docking y	1	
+Docking z	1	
+Total TRE Count	0
+
+
+Correct Angles	Rotate	ChildRotate	RotateInverse	ChildRotateInverse	Docking x	Docking y	Docking z
+	-2.673367E-08	-8.247908E-18	0	4.093356E-08	0	0	0
+
+Angle Error	Rotate	ChildRotate	RotateInverse	ChildRotateInverse	Docking x	Docking y	Docking z
+	1.875458	8.247908E-18	0	0.4688642	0	0	0
+
+Time Taken	Hours	Minutes	Seconds	Milliseconds	Seconds float	Completion time
+	0	0	1	366	1.366339	00h:00m:01s:366ms
+
+Final Results	Tester Name	Time of Test	Dock Shape Style	Virtual Device Visible	Time Taken	Shape Precision %	Orientation Precision %	Overall Precision %	Efficiency %	Difficulty	Total MV	Total TRE	
+	0	2018-10-30_15:57:11	ZEROING DATA	True	00h:00m:01s:366ms	99.6744	100	99.81394	100	7.518581E-11	14.53481	0	
