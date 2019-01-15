@@ -1,0 +1,109 @@
+This Application uses a command console (the green panel) 
+which is always open in the top right of the screen. In 
+order to operate a test you'll need to run a few commands. 
+To run a command simply type in the lowest text field and 
+hit enter to run it. 
+
+When text in here is presented in double quotes "" this is
+a command to run. Anything on the inside of those with 
+square brackets [] is pseudo code and meant to be where you
+enter data you want based on your procedure context.
+
+In order to know trial information there is a plain black
+panel below the command console which displays the current
+round (called DataLogger_[round number]) and trials tabbed
+beneath each one (called Test_[trial number]). Use this
+panel to know what trial is currently being completed
+and to keep track of which trial you want to omit/delete
+from the results if it's data is contaminated with 
+a device issue.
+
+
+
+[VOCABULARY]
+Starting Position: keep device level and flat, with the bending 
+	parts facing upwards, and the blue cable facing 
+	away from you
+DataLogger/logger: this is what the application calls a round
+	of trials
+Test: this is what the application calls an individual trial
+Pedal: this is a usb foot pedal, or can be replaced by pressing
+	'e' on the keyboard or moving a joystick downward on a
+	connected xbox controller (the 12th axis, usually left
+	stick's up and down axis)
+
+
+
+[RUNNING A SESSION]
+
+STEP 1 _ Set up a session:
+1 - Use the command "prefs set 15 15 15 15 10 0.1" 
+    (to set the number of trial types, the same amount 
+    as prior procedure)
+2 - Use the command "prefs update logger" 
+    (to apply prefs to rounds you'll create)
+
+STEP 2 _ Run desired testing rounds:
+1 - Use the command "add logger [desired round number]" 
+    (to create a round)
+2 - If the device is in the Starting Position
+    The participant can now press the pedal whenever
+    they are ready to start a trial
+3 - The participant should match the twin version
+    of their device for each trial and press the pedal
+    when they feel they are close to a match
+4 - In between each trial you may notice that on ZERO_DOCK
+    trials the twin is flat, this also calibrates the device
+    it is vital that they hold it in the Starting Position
+5 - Complete the number of trials assigned until there
+    are none left and they receive the "You're Done!"
+    message on the floating box
+6 - Use the command "summarize logger [desired round number]"
+    (to summarize the round's data, it will create an
+    additional summary and trial category summary file, 
+    THIS IS CRUTIAL FOR SUMMARIES OF ALLDATA)
+7 - Repeat these steps until desired number of rounds are 
+    completed by the participant (do 2 of them to complete
+    the same amount as prior procedure)
+
+STEP 3 _ Get the summary of all data:
+1 - Use the command "add logger alldata" 
+2 - Use the command "summarize logger alldata"
+    (this will create an alldata report folder with
+    summaries of all trials across all rounds) 
+
+
+
+[READING RESULTS]
+
+Drag and drop desired data from a text file into an excel
+sheet and set the cell seperator to TABS.
+
+
+
+[HELP SECTION] 
+
+If the device is acting weird:
+1 - Ask the participant to lower the device to a level surface, 
+    with the bending parts facing upwards, and the blue cable 
+    facing away from themselves (the starting position)
+2 - Turn on Show Debug Keys in the command console
+    (if it isn't already on) 
+    and press 'o' on the keyboard to re-calibrate the device
+3 - The participant can now pick up and use the device again
+
+If a trial has contaminated data from device/unknown error:
+1 - Use the command "delete logger [desired round number] 
+    [desired trial number]"
+
+If something SUPER WEIRD is occuring:
+1 - Use the command "reload"
+2 - Start Session procedure over
+_Didn't work?:
+1 - Unplug the HaptoBend device and pedal
+2 - Close application 
+3 - Plug the HaptoBend device and pedal back in
+4 - Restart the application
+5 - Start Session procedure over
+_If this still doesn't solve it, you can contact me at:
+valerie.taylor.heyerdahl@gmail.com
